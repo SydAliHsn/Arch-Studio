@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" defer src="./js/index.js"></script>
+    <!-- When using combined-scss -->
+    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+
+    <!-- When using separate-scss -->
+    <link rel="stylesheet" href="./css/index/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Arch Studio</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__side-handle hidden-sm">Home</div>
+
+        <a href="./index.html">
+          <img src="./assets/logo.svg" alt="logo" class="nav__logo"
+        /></a>
+
+        <ul class="nav-links hidden-sm">
+          <li class="nav-links__link">
+            <a href="./pages/portfolio.html" class="nav-links__link"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-links__link">
+            <a href="./pages/about.html" class="nav-links__link">About Us</a>
+          </li>
+          <li class="nav-links__link">
+            <a href="./pages/contact.html" class="nav-links__link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav__icons hidden-md hidden-md">
+          <img class="nav__hamburger" src="./assets/icons/icon-hamburger.svg" />
+          <img
+            class="nav__close-icon hidden"
+            src="./assets/icons/icon-close.svg"
+          />
+        </div>
+
+        <ul class="nav-links--mobile hidden-md">
+          <li>
+            <a href="./pages/portfolio.html" class="nav-links--mobile__link"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="./pages/about.html" class="nav-links--mobile__link"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a href="./pages/contact.html" class="nav-links--mobile__link"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="slider">
+      <div class="container">
+        <div class="slide slide-1 slide--active">
+          <div class="slide__content">
+            <h1 class="slide__heading heading-lg">Project Paramour</h1>
+            <p class="slide__text">
+              Project made for an art museum near Southwest London. Project
+              Paramour is a statement of bold, modern architecture.
+            </p>
+            <a href="./pages/portfolio.html" class="btn-primary"
+              >See Our Portfolio<img src="./assets/icons/icon-arrow.svg"
+            /></a>
+          </div>
+
+          <div class="slide__img">
+            <img
+              src="./assets/home/desktop/image-hero-paramour.jpg"
+              alt="paramour"
+              class="img--desktop"
+            />
+            <img
+              src="./assets/home/tablet/image-hero-paramour.jpg"
+              alt="paramour"
+              class="img--tablet"
+            />
+            <img
+              src="./assets/home/mobile/image-hero-paramour.jpg"
+              alt="paramour"
+              class="img--mobile"
+            />
+          </div>
+        </div>
+
+        <div class="slide slide-2">
+          <div class="slide__content">
+            <h1 class="slide__heading heading-lg">Federal II Tower</h1>
+            <p class="slide__text">
+              A sequel theme project for a tower originally built in the 1800s.
+              We achieved this with a striking look of brutal minimalism with
+              modern touches.
+            </p>
+            <a href="./pages/portfolio.html" class="btn-primary"
+              >See Our Portfolio<img src="./assets/icons/icon-arrow.svg"
+            /></a>
+          </div>
+
+          <div class="slide__img">
+            <img
+              src="./assets/home/desktop/image-hero-federal.jpg"
+              alt="federal"
+              class="img--desktop"
+            />
+            <img
+              src="./assets/home/tablet/image-hero-federal.jpg"
+              alt="federal"
+              class="img--tablet"
+            />
+            <img
+              src="./assets/home/mobile/image-hero-federal.jpg"
+              alt="federal"
+              class="img--mobile"
+            />
+          </div>
+        </div>
+
+        <div class="slide slide-3">
+          <div class="slide__content">
+            <h1 class="slide__heading heading-lg">Seraph Station</h1>
+            <p class="slide__text">
+              The Seraph Station project challenged us to design a unique
+              station that would transport people through time. The result is a
+              fresh and futuristic model inspired by space stations.
+            </p>
+            <a href="./pages/portfolio.html" class="btn-primary"
+              >See Our Portfolio<img src="./assets/icons/icon-arrow.svg"
+            /></a>
+          </div>
+
+          <div class="slide__img">
+            <img
+              src="./assets/home/desktop/image-hero-seraph.jpg"
+              alt="seraph"
+              class="img--desktop"
+            />
+            <img
+              src="./assets/home/tablet/image-hero-seraph.jpg"
+              alt="seraph"
+              class="img--tablet"
+            />
+            <img
+              src="./assets/home/mobile/image-hero-seraph.jpg"
+              alt="seraph"
+              class="img--mobile"
+            />
+          </div>
+        </div>
+
+        <div class="slide slide-4">
+          <div class="slide__content">
+            <h1 class="slide__heading heading-lg">Trinity Bank Tower</h1>
+            <p class="slide__text">
+              Trinity Bank challenged us to make a concept for a 84 story
+              building located in the middle of a city with a high earthquake
+              frequency. For this project we used curves to blend design and
+              stability to meet our objectives.
+            </p>
+            <a href="./pages/portfolio.html" class="btn-primary"
+              >See Our Portfolio<img src="./assets/icons/icon-arrow.svg"
+            /></a>
+          </div>
+
+          <div class="slide__img">
+            <img
+              src="./assets/home/desktop/image-hero-trinity.jpg"
+              alt="trinity"
+              class="img--desktop"
+            />
+            <img
+              src="./assets/home/tablet/image-hero-trinity.jpg"
+              alt="trinity"
+              class="img--tablet"
+            />
+            <img
+              src="./assets/home/mobile/image-hero-trinity.jpg"
+              alt="trinity"
+              class="img--mobile"
+            />
+          </div>
+        </div>
+
+        <div class="slider__btn-container">
+          <a data-slide="1" class="slider__btn slider__btn--active">01</a>
+          <a data-slide="2" class="slider__btn">02</a>
+          <a data-slide="3" class="slider__btn">03</a>
+          <a data-slide="4" class="slider__btn">04</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="welcome">
+      <h1 class="heading-xl">Welcome</h1>
+
+      <div class="container">
+        <div class="welcome__content">
+          <h1 class="welcome__heading heading-lg">Welcome to Arch Studio</h1>
+          <p class="welcome__paragraph">
+            We have a unique network and skillset to help bring your projects to
+            life. Our small team of highly skilled individuals combined with our
+            large network put us in a strong position to deliver exceptional
+            results.
+          </p>
+          <p class="welcome__paragraph">
+            Over the past 10 years, we have worked on all kinds of projects.
+            From stations to high-rise buildings, we create spaces that inspire
+            and delight.
+          </p>
+          <p class="welcome__paragraph">
+            We work closely with our clients so that we understand the
+            intricacies of each project. This allows us to work in harmony the
+            surrounding area to create truly stunning projects that will stand
+            the test of time.
+          </p>
+        </div>
+        <div class="welcome__img">
+          <img
+            class="img--desktop"
+            src="./assets/home/desktop/image-welcome.jpg"
+            alt="welcome"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="big-ideas">
+      <div class="container">
+        <div class="big-ideas__content">
+          <h1 class="heading-lg">Small team, big ideas</h1>
+          <a href="./pages/about.html" class="btn-primary btn-primary--sm"
+            >About Us<img src="./assets/icons/icon-arrow.svg"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="container">
+        <div class="featured__header">
+          <h1 class="heading-lg">Featured</h1>
+          <a
+            href="./pages/portfolio.html"
+            class="btn-primary btn-primary--sm hidden-sm"
+            >See all <img src="./assets/icons/icon-arrow.svg" alt="icon-arrow"
+          /></a>
+        </div>
+        <div class="featured__projects">
+          <div class="featured-project">
+            <div class="featured-project__img">
+              <img
+                src="./assets/portfolio/desktop/image-del-sol.jpg"
+                alt="Project Del Sol"
+                class="img--desktop"
+              />
+              <img
+                src="./assets/portfolio/tablet/image-del-sol.jpg"
+                alt="Project Del Sol"
+                class="img--tablet"
+              />
+              <img
+                src="./assets/portfolio/mobile/image-del-sol.jpg"
+                alt="Project Del Sol"
+                class="img--mobile"
+              />
+            </div>
+            <i class="featured-project__number hidden-sm">1</i>
+            <div class="featured-project__content">
+              <h3 class="heading-sm">Project Del Sol</h3>
+              <a href="./pages/portfolio.html" class="featured-project__link"
+                >View All projects</a
+              >
+            </div>
+          </div>
+
+          <div class="featured-project">
+            <div class="featured-project__img">
+              <img
+                src="./assets/portfolio/desktop/image-228b.jpg"
+                alt="Project Del Sol"
+                class="img--desktop"
+              />
+              <img
+                src="./assets/portfolio/tablet/image-228b.jpg"
+                alt="Project Del Sol"
+                class="img--tablet"
+              />
+              <img
+                src="./assets/portfolio/mobile/image-228b.jpg"
+                alt="Project Del Sol"
+                class="img--mobile"
+              />
+            </div>
+            <i class="featured-project__number hidden-sm">2</i>
+            <div class="featured-project__content">
+              <h3 class="heading-sm">22B8 Tower</h3>
+              <a href="./pages/portfolio.html" class="featured-project__link"
+                >View All projects</a
+              >
+            </div>
+          </div>
+
+          <div class="featured-project">
+            <div class="featured-project__img">
+              <img
+                src="./assets/portfolio/desktop/image-prototype.jpg"
+                alt="Project Del Sol"
+                class="img--desktop"
+              />
+              <img
+                src="./assets/portfolio/tablet/image-prototype.jpg"
+                alt="Project Del Sol"
+                class="img--tablet"
+              />
+              <img
+                src="./assets/portfolio/mobile/image-prototype.jpg"
+                alt="Project Del Sol"
+                class="img--mobile"
+              />
+            </div>
+            <i class="featured-project__number hidden-sm">3</i>
+            <div class="featured-project__content">
+              <h3 class="heading-sm">Le Prototype</h3>
+              <a href="./pages/portfolio.html" class="featured-project__link"
+                >View All projects</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="./pages/portfolio.html"
+          class="btn-primary featured__btn-primary--bottom hidden-md"
+          >See All <img src="./assets/icons/icon-arrow.svg" alt="icon-arrow"
+        /></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <a href="./index.html">
+            <img src="./assets/logo - white.svg" alt="arch-studio logo"
+          /></a>
+        </div>
+        <div class="footer__links">
+          <a href="./pages/portfolio.html" class="footer__link">Portfolio</a>
+          <a href="./pages/about.html" class="footer__link">About Us</a>
+          <a href="./pages/contact.html" class="footer__link">Contact</a>
+        </div>
+        <a href="./pages/portfolio.html" class="btn-primary footer__btn-primary"
+          >See Our Portfolio<img src="./assets/icons/icon-arrow.svg"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+@use '../variables' as var;
+@use '../nav';
+@use '../footer';
+@use 'slider';
+@use 'home-welcome';
+@use 'big-ideas';
+@use 'featured';
+
+// Generals
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  overflow-x: hidden;
+  line-height: 1.7;
+}
+
+input,
+textarea {
+  font-family: 'Spartan', sans-serif;
+  color: var.$color-text;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  font-weight: 500;
+  color: var.$color-text;
+  font-size: 1.55rem;
+}
+
+// End of Generals
+
+// Disable scroll of the page when open the menu
+.disable-scroll {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+// Utility Classes
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10rem;
+
+  @media (max-width: 767px) {
+    padding: 0 3rem;
+  }
+}
+
+// Headings
+.heading {
+  &-xl {
+    color: var.$color-veryLight;
+    font-weight: 500;
+    font-size: 14rem;
+  }
+
+  &-lg {
+    line-height: 1.2;
+    font-size: 3.8rem;
+    color: #222;
+
+    @media (min-width: 768px) {
+      font-size: 5.5rem;
+    }
+    @media (max-width: 300px) {
+      font-size: 3.4rem;
+    }
+  }
+
+  &-sm {
+    line-height: 1.2;
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+}
+// End of Headings
+
+// Hidden
+// The element will not display at all
+.hidden {
+  display: none;
+}
+
+// The element will be hidden when the screen is wider than 1200px
+.hidden-lg {
+  @media (min-width: 1200px) {
+    display: none !important;
+  }
+}
+
+// The element will be hidden when the screen is wider than 768px
+.hidden-md {
+  @media (min-width: 768px) {
+    display: none !important;
+  }
+}
+
+// The element will be hidden when the screen is thinner than 768px
+.hidden-sm {
+  @media (max-width: 767px) {
+    display: none !important;
+  }
+}
+
+// End of Hidden
+
+// imgs
+.img {
+  &--desktop {
+    display: none;
+    @media (min-width: 1021px) {
+      display: block;
+    }
+  }
+  &--tablet {
+    display: none;
+    @media (max-width: 1020px) and (min-width: 768px) {
+      display: block;
+    }
+  }
+  &--mobile {
+    display: none;
+    @media (max-width: 767px) {
+      display: block;
+    }
+  }
+}
+// End of imgs
+
+// Buttons
+.btn-primary {
+  background: var.$color-dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7.3rem;
+  width: 30rem;
+  color: var.$color-veryLight;
+  font-size: 1.6rem;
+
+  img {
+    width: 3rem;
+    margin-left: 1.5rem;
+    transition: margin 0.3s;
+  }
+
+  &:hover {
+    img {
+      margin-left: 3.5rem;
+    }
+  }
+
+  &--sm {
+    width: 22rem;
+
+    img {
+      width: 2.5rem;
+    }
+  }
+}
+// End of Buttons
+
+// End of Utility Classes

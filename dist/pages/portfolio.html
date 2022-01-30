@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" defer src="../js/index.js"></script>
+    <!-- When using combined-scss -->
+    <!-- <link rel="stylesheet" href="../css/main.css" /> -->
+
+    <!-- When using separate-scss -->
+    <link rel="stylesheet" href="../css/portfolio/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Arch Studio</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__side-handle hidden-sm">Portfolio</div>
+        <a href="../index.html">
+          <img src="../assets/logo.svg" alt="logo" class="nav__logo"
+        /></a>
+
+        <ul class="nav-links hidden-sm">
+          <li class="nav-links__link">
+            <a href="#" class="nav-links__link">Portfolio</a>
+          </li>
+          <li class="nav-links__link">
+            <a href="./about.html" class="nav-links__link">About Us</a>
+          </li>
+          <li class="nav-links__link">
+            <a href="./contact.html" class="nav-links__link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav__icons hidden-md hidden-md">
+          <img
+            class="nav__hamburger"
+            src="../assets/icons/icon-hamburger.svg"
+          />
+          <img
+            class="nav__close-icon hidden"
+            src="../assets/icons/icon-close.svg"
+          />
+        </div>
+
+        <ul class="nav-links--mobile hidden-md">
+          <li>
+            <a href="#" class="nav-links--mobile__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="./about.html" class="nav-links--mobile__link">About Us</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="nav-links--mobile__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="portfolio-gallery">
+      <div class="container">
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-del-sol.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-del-sol.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-del-sol.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Project Del Sol</h3>
+            <p class="gallery-item__date">June 2016</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-sxiv.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-sxiv.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-sxiv.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">SXIV Tower</h3>
+            <p class="gallery-item__date">March 2011</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-eebox.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-eebox.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-eebox.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Eebox Building</h3>
+            <p class="gallery-item__date">August 2017</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-federal.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-federal.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-federal.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Federal Tower</h3>
+            <p class="gallery-item__date">March 2017</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-228b.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-228b.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-228b.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">22BB Tower</h3>
+            <p class="gallery-item__date">September 2019</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-paramour.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-paramour.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-paramour.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Project Paramour</h3>
+            <p class="gallery-item__date">February 2008</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-hypers.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-hypers.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-hypers.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Hypers</h3>
+            <p class="gallery-item__date">January 2012</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-netcry.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-netcry.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-netcry.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Netcry Tower</h3>
+            <p class="gallery-item__date">August 2012</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-trinity.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-trinity.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-trinity.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Trinity Bank Tower</h3>
+            <p class="gallery-item__date">September 2010</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-prototype.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-prototype.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-prototype.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Le Prototype</h3>
+            <p class="gallery-item__date">February 2015</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-edelweiss.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-edelweiss.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-edelweiss.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Grand Edelweiss Hotel</h3>
+            <p class="gallery-item__date">December 2013</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item__img-container">
+            <img
+              src="../assets/portfolio/desktop/image-seraph.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--desktop"
+            />
+            <img
+              src="../assets/portfolio/tablet/image-seraph.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--tablet"
+            />
+            <img
+              src="../assets/portfolio/mobile/image-seraph.jpg"
+              alt="portfolio-img"
+              class="gallery-item__img img--mobile"
+            />
+          </div>
+          <div class="gallery-item__content">
+            <h3 class="gallery-item__title">Seraph Station</h3>
+            <p class="gallery-item__date">September 2019</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <a href="../index.html">
+            <img src="../assets/logo - white.svg" alt="arch-studio logo"
+          /></a>
+        </div>
+        <div class="footer__links">
+          <a href="./portfolio.html" class="footer__link">Portfolio</a>
+          <a href="./about.html" class="footer__link">About Us</a>
+          <a href="./contact.html" class="footer__link">Contact</a>
+        </div>
+        <a href="../index.html" class="footer__btn-primary btn-primary"
+          >See Our Portfolio<img src="../assets/icons/icon-arrow.svg"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

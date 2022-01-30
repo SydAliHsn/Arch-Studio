@@ -1,0 +1,19 @@
+{
+  "name": "arch-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w ./sass-combined:./dist/css",
+    "sass-index": "sass -w ./sass-separate/index:./dist/css/index",
+    "sass-portfolio": "sass -w ./sass-separate/portfolio:./dist/css/portfolio",
+    "sass-about": "sass -w ./sass-separate/about:./dist/css/about",
+    "sass-contact": "sass -w ./sass-separate/contact:./dist/css/contact"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.44.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" defer src="../js/index.js"></script>
+       <!-- When using combined-scss -->
+    <!-- <link rel="stylesheet" href="../css/main.css" /> -->
+
+    <!-- When using separate-scss -->
+    <link rel="stylesheet" href="../css/about/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Arch Studio</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__side-handle hidden-sm">About Us</div>
+        <a href="../index.html">
+          <img src="../assets/logo.svg" alt="logo" class="nav__logo"
+        /></a>
+
+        <ul class="nav-links hidden-sm">
+          <li class="nav-links__link">
+            <a href="../index.html" class="nav-links__link">Portfolio</a>
+          </li>
+          <li class="nav-links__link">
+            <a href="#" class="nav-links__link">About Us</a>
+          </li>
+          <li class="nav-links__link">
+            <a href="./contact.html" class="nav-links__link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav__icons hidden-md hidden-md">
+          <img class="nav__hamburger" src="../assets/icons/icon-hamburger.svg" />
+          <img
+            class="nav__close-icon hidden"
+            src="../assets/icons/icon-close.svg"
+          />
+        </div>
+
+        <ul class="nav-links--mobile hidden-md">
+          <li>
+            <a href="../index.html" class="nav-links--mobile__link"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#" class="nav-links--mobile__link">About Us</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="nav-links--mobile__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+    <div class="container">
+      <div class="hero__img">
+        <img
+            class="img--desktop"
+            src="../assets/about/desktop/image-hero.jpg"
+            alt="about-img"
+          />
+          <img
+            class="img--tablet"
+            src="../assets/about/tablet/image-hero.jpg"
+            alt="about-img"
+          />
+          <img
+            class="img--mobile"
+            src="../assets/about/mobile/image-hero.jpg"
+            alt="about-img"
+          />
+        </div>
+          <h1 class="hero__heading--lg heading-xl hidden-sm">About</h1>
+          <div class="hero__content">
+            <h3 class="hero__heading heading-lg">
+              Your team of professionals
+            </h3>
+            <div class="hero__text">
+              <p>
+                Our small team of world-class professionals will work with you
+                every step of the way.
+              </p>
+              <p>
+                Strong relationships are at the core of everything we do. This
+                extends to the relationship our projects have with their
+                surroundings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="heritage">
+      <div class="container">
+        <div class="heritage__content">
+          <h1 class="heritage__heading heading-lg">Our Heritage</h1>
+          <p class="heritage__paragraph">
+            Founded in 2007, we started as a trio of architects. Our
+            complimentary skills and relentless attention to detail turned Arch
+            into one of the most sought after boutique firms in the country.
+          </p>
+          <p class="heritage__paragraph">
+            Speciliazing in Urban Design allowed us to focus on creating
+            exceptional structures that live in harmony with their surroundings.
+            We consider every detail from every surrounding element to inform
+            our designs.
+          </p>
+          <p class="heritage__paragraph">
+            Our small team of world-class professionals provides input on every
+            project.
+          </p>
+        </div>
+        <div class="heritage__img">
+          <img
+            class="img--desktop"
+            src="../assets/about/desktop/image-heritage.jpg"
+            alt="heritage"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="leaders">
+      <div class="container">
+        <h1 class="leaders__heading heading-lg">The Leaders</h1>
+
+        <div class="leaders-container">
+          <div class="leader">
+            <img class="leader__img" src="../assets/about/desktop/avatar-jake.jpg" alt="leader" >
+            <div class="leader__content">
+              <h4 class="leader__name">Jake Richards</h4>
+              <p class="leader__designation">Chief Architect</p>
+              <div class="leader__links">
+                <a  href="twitter.com">
+                  <img src="../assets/icons/icon-twitter.svg" alt="twitter-icon">
+                </a>
+                <a  href="linkedin.com">
+                  <img src="../assets/icons/icon-linkedin.svg" alt="linkedin-icon">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="leader">
+            <img class="leader__img" src="../assets/about/desktop/avatar-thompson.jpg" alt="leader" >
+            <div class="leader__content">
+              <h4 class="leader__name">Thompson Smith</h4>
+              <p class="leader__designation">Head of Finance</p>
+              <div class="leader__links">
+                <a  href="twitter.com">
+                  <img src="../assets/icons/icon-twitter.svg" alt="twitter-icon">
+                </a>
+                <a  href="linkedin.com">
+                  <img src="../assets/icons/icon-linkedin.svg" alt="linkedin-icon">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="leader">
+            <img class="leader__img" src="../assets/about/desktop/avatar-jackson.jpg" alt="leader" >
+            <div class="leader__content">
+              <h4 class="leader__name">Jackson Rourke</h4>
+              <p class="leader__designation">Lead Designer</p>
+              <div class="leader__links">
+                <a  href="twitter.com">
+                  <img src="../assets/icons/icon-twitter.svg" alt="twitter-icon">
+                </a>
+                <a  href="linkedin.com">
+                  <img src="../assets/icons/icon-linkedin.svg" alt="linkedin-icon">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="leader">
+            <img class="leader__img" src="../assets/about/desktop/avatar-maria.jpg" alt="leader" >
+            <div class="leader__content">
+              <h4 class="leader__name">Maria Simpson</h4>
+              <p class="leader__designation">Senior Architect</p>
+              <div class="leader__links">
+                <a  href="twitter.com">
+                  <img src="../assets/icons/icon-twitter.svg" alt="twitter-icon">
+                </a>
+                <a  href="linkedin.com">
+                  <img src="../assets/icons/icon-linkedin.svg" alt="linkedin-icon">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <a href="../index.html">
+            <img src="../assets/logo - white.svg" alt="arch-studio logo"
+          /></a>
+        </div>
+        <div class="footer__links">
+          <a href="../index.html" class="footer__link">Portfolio</a>
+          <a href="#" class="footer__link">About Us</a>
+          <a href="./contact.html" class="footer__link">Contact</a>
+        </div>
+        <a href="../index.html" class="footer__btn-primary btn-primary"
+          >See Our Portfolio<img src="../assets/icons/icon-arrow.svg"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

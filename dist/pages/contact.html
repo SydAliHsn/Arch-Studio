@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LEAFLET LIBRARY -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    <!-- LEAFLET LIBRARY -->
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="../js/index.js"></script>
+       <!-- When using combined-scss -->
+    <!-- <link rel="stylesheet" href="../css/main.css" /> -->
+
+    <!-- When using separate-scss -->
+    <link rel="stylesheet" href="../css/contact/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Arch Studio</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__side-handle hidden-sm">Contact Us</div>
+        <a href="../index.html">
+          <img src="../assets/logo.svg" alt="logo" class="nav__logo"
+        /></a>
+
+        <ul class="nav-links hidden-sm">
+          <li class="nav-links__link">
+            <a href="./portfolio.html" class="nav-links__link">Portfolio</a>
+          </li>
+          <li class="nav-links__link">
+            <a href="./about.html" class="nav-links__link">About Us</a>
+          </li>
+          <li class="nav-links__link">
+            <a href="#" class="nav-links__link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav__icons hidden-md hidden-md">
+          <img
+            class="nav__hamburger"
+            src="../assets/icons/icon-hamburger.svg"
+          />
+          <img
+            class="nav__close-icon hidden"
+            src="../assets/icons/icon-close.svg"
+          />
+        </div>
+
+        <ul class="nav-links--mobile hidden-md">
+          <li>
+            <a href="../index.html" class="nav-links--mobile__link"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="./about.html" class="nav-links--mobile__link">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links--mobile__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+    <div class="container">
+      <div class="hero__img">
+        <img
+            class="img--desktop"
+            src="../assets/contact/desktop/image-hero.jpg"
+            alt="about-img"
+          />
+          <img
+            class="img--tablet"
+            src="../assets/contact/tablet/image-hero.jpg"
+            alt="about-img"
+          />
+          <img
+            class="img--mobile"
+            src="../assets/contact/mobile/image-hero.jpg"
+            alt="about-img"
+          />
+        </div>
+          <h1 class="hero__heading--lg heading-xl hidden-sm">Contact</h1>
+          <div class="hero__content">
+            <h3 class="hero__heading heading-lg">
+              Tell us about your project
+            </h3>
+            <div class="hero__text">
+              <p>
+                We'd love to hear more about your project. Please, leave a message below or give us a call. We have two offices, one in Texas and one in Tennessee. If you find yourself nearby, come say hello!
+              </p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-details">
+      <div class="container">
+      <div class="contact-details__grid-container">
+        <h1 class="heading-lg">Contact Details</h1>
+
+        <div class="contact-details__offices-container">
+        <div class="office-details">
+          <h3 class="office-details__heading">Main Office</h3>
+          <div class="office-details__details">
+            <div class="office-details__field">
+              <p>Mail:</p> <p>archone@mail.com</p>
+            </div>
+            <div class="office-details__field">
+              <p>Address:</p> <p>1892 Chenoweth Drive TN</p>
+            </div>
+            <div class="office-details__field">
+              <p>Phone:</p> <p>123-456-3451
+              </p>
+            </div>
+          </div>
+
+          <a class="office-details__map-btn" href="#contact-details__map" data-office="mainOffice">View on Map <img src="../assets/icons/icon-arrow -black.svg"></a>
+        </div>
+
+        <div class="office-details">
+          <h3 class="office-details__heading">Office II</h3>
+          <div class="office-details__details">
+            <div class="office-details__field">
+              <p>Mail:</p> <p>archone@mail.com</p>
+            </div>
+            <div class="office-details__field">
+              <p>Address:</p> <p>3399 Wines Lane TX</p>
+            </div>
+            <div class="office-details__field">
+              <p>Phone:</p> <p>832-123-4321</p>
+            </div>
+          </div>
+
+          <a class="office-details__map-btn" href="#contact-details__map" data-office="officeII">View on Map <img src="../assets/icons/icon-arrow -black.svg"></a>
+        </div>
+        </div>
+
+      </div>
+        <div id="contact-details__map"></div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <div class="container">
+        <h1 class="heading-lg">Connect with Us</h1>
+        <form class="contact-form__form">
+          <input type="text" placeholder="Name" class="contact-form__input">
+          <input type="email" placeholder="Email" class="contact-form__input">
+          <textarea class="contact-form__input" placeholder="Message"></textarea>
+          <button class="btn-primary contact-form__btn"><img src="../assets/icons/icon-arrow.svg"></button>
+        </form>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <a href="../index.html">
+            <img src="../assets/logo - white.svg" alt="arch-studio logo"
+          /></a>
+        </div>
+        <div class="footer__links">
+          <a href="./index.html" class="footer__link">Portfolio</a>
+          <a href="./about.html" class="footer__link">About Us</a>
+          <a href="#" class="footer__link">Contact</a>
+        </div>
+        <a href="../index.html" class="footer__btn-primary btn-primary"
+          >See Our Portfolio<img src="../assets/icons/icon-arrow.svg"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

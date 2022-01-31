@@ -1,9 +1,7 @@
-@use '../variables' as var;
-@use '../nav';
-@use '../footer';
-@use 'hero';
-@use 'about-heritage';
-@use 'leaders';
+@use 'variables' as var;
+@use 'nav';
+@use 'footer';
+@use 'portfolio-gallery';
 
 // Generals
 * {

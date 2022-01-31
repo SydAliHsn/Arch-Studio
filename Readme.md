@@ -1,4 +1,4 @@
-////////////// FOR COMPILING SCSS TO CSS/////////////
+////////////// FOR COMPILING SCSS TO CSS (FOR DEVELOPMENT AND TESTING BUILD) /////////////
 For compiling scss:
 
 - "npm run sass-index" for css of index page
@@ -9,3 +9,6 @@ For compiling scss:
 And if you want to add a new scss file to a page, do make sure to include the file in the main-\*.scss of the respective page.
 
 Make sure to delete the css folder from dist before pushing the project on github
+
+/////////////////// COMPILING SCSS TO CSS (FOR PRODUCTION BUILD) //////////////
+"npm run build"

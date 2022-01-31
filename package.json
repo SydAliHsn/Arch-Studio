@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass-index": "sass ./sass/main-index.scss:./dist/css/index.css",
+    "sass-index": "sass -w ./sass/main-index.scss:./dist/css/index.css",
     "sass-portfolio": "sass -w ./sass/main-portfolio.scss:./dist/css/portfolio.css",
     "sass-about": "sass -w ./sass/main-about.scss:./dist/css/about.css",
-    "sass-contact": "sass ./sass/main-contact.scss:./dist/css/contact.css",
-    "build": "npm run sass-index && npm run sass-contact"
+    "sass-contact": "sass -w ./sass/main-contact.scss:./dist/css/contact.css",
+    "build": "npm run sass-index && npm run sass-contact && npm run sass-about && npm run sass-portfolio"
   },
   "author": "",
   "license": "ISC",

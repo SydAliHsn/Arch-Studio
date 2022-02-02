@@ -69,6 +69,7 @@
   &__date {
     font-size: 1.5rem;
     font-weight: 500;
+    color: var.$color-light;
     @media (max-width: 500px) {
       font-size: 1.2rem;
     }
